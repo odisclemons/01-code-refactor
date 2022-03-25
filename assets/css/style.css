@@ -21,9 +21,9 @@ body {
   font-size: 48px;
 }
 
-.header h1 .seo {
+/* .header h1 .seo {
   color: #d9dcd6;
-}
+} */
 
 .header div {
   padding-top: 15px;
@@ -103,7 +103,7 @@ p {
   max-width: 150px;
 }
 
-#seo {
+/* #seo {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -128,9 +128,18 @@ p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #0072bb;
   color: #ffffff;
+} */
+
+.content div {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
 }
 
-#seo img {
+/* #seo img {
   max-height: 200px;
 }
 
@@ -140,9 +149,14 @@ p {
 
 #smm img {
   max-height: 200px;
+} */
+
+/* combined content img rules into single rule */
+.content img {
+  max-height: 200px;
 }
 
-#seo h2 {
+/* #seo h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
@@ -153,6 +167,12 @@ p {
 }
 
 #smm h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+} */
+
+/* combined content h2 rules into single rule */
+.content h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
